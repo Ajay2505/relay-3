@@ -1,0 +1,113 @@
+@import url("/global/global.responsive.css");
+@import url("./index.css");
+
+@media only screen and (min-width: 1500px) {
+    .video_container {
+        max-width: 1320px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .curve {
+        margin-top: -2px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .vector_section .content {
+        transform: translateY(100px);
+    }
+    .section_1 .right_wrapper .img_wrapper .bubble_wrapper {
+        max-width: 250px;
+    }
+    .pinned_element {
+        position: relative;
+        transform: none;
+        margin: 20px auto 0 auto;
+        width: 100%;
+        left: 0;
+    }
+    .pinned_element .fade_in_box {
+        display: none;
+    }
+    .skew_fix {
+        height: 0;
+    }
+    .setup_section .boxes {
+        flex-direction: column;
+        gap: 30px 0;
+    }
+    .setup_section .boxes .box:hover {
+        width: 100%;
+    }
+    .scale_section .right_wrapper .bottom_wrapper .box.green {
+        min-height: 350px;
+    }
+    .pricing_section .left_wrapper .overlay_wrapper {
+        top: -35%;
+    }
+    .benefits_section {
+        padding-bottom: 0;
+    }
+    .end_pin {
+        padding-block: 50px;
+    }
+    .inv_section {
+        padding-bottom: 50px;
+    }
+    .pinned_element.skew {
+        max-width: 330px;
+        min-width: 330px;
+    }
+    .pricing_section .right_wrapper .overlay_wrapper {
+        top: 0;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .pinned_element.skew {
+        max-width: 270px;
+        min-width: 250px;
+    }
+    .skew_fix {
+        height: 0;
+    }
+    .setup_section .boxes .box .content button {
+        opacity: 1;
+    }
+    .setup_section .boxes .box .bottom {
+        margin-top: 70px;
+    }
+    .pricing_section .left_wrapper .overlay_wrapper {
+        top: -10%;
+    }
+    .vector_section .content {
+        transform: translateY(50px);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .section_1 .right_wrapper .img_wrapper .bubble_wrapper{
+        max-width: 200px;
+    }
+    .end_pin {
+        overflow: hidden;
+    }
+    .pricing_section {
+        padding-bottom: 50px !important;
+    }
+    .scale_section {
+        padding-top: 50px !important;
+    }
+    .pricing_section .left_wrapper .overlay_wrapper {
+        top: -6%;
+        right: -40%;
+    }
+    .vector_section .content {
+        transform: translateY(30px);
+    }
+    .curve {
+        margin-top: -2px;
+    }
+}

@@ -1,0 +1,115 @@
+@import url("/global/global.css");
+
+
+@media only screen and (max-width: 1150px) {
+    footer .mask_wrapper {
+        position: relative;
+    }
+    .section_work .steps {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    nav .center_content, nav .end_content {
+        display: none !important;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .pb_lg_md {
+        padding-bottom: 150px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    nav .nav_icon_wrapper {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .section_work .steps {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    .calendy_modal .slide1_img_wrapper {
+        max-width: 500px;
+        max-height: 600px;
+    }
+    .scale_section .right_wrapper .top_wrapper, .scale_section .right_wrapper .bottom_wrapper .box > div {
+        flex-direction: column !important;
+    }
+    .max-lg-vstack {
+        flex-direction: column;
+    }
+    footer .yellow_dot {
+        top: 40%;
+        left: 10%;
+    }
+    footer {
+        padding-top: 50px;
+        background: var(--bg-pink);
+    }
+    .calc_section {
+        background-position: 250% 0;
+    }
+    .setup_section .boxes .box.green {
+        height: fit-content;
+    }
+    footer .logo_wrapper {
+        max-width: 100px;
+    }
+    .scale_section .right_wrapper .top_wrapper::before {
+        content: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .map_section .img_wrapper .content {
+        width: 95%;
+    }
+    .max-md-vstack {
+        flex-direction: column;
+    }
+    .calc_section {
+        background-position: -40% 0;
+    }
+    footer .mask_wrapper {
+        right: 0;
+    }
+    footer .bubble_wrapper {
+        max-width: 180px;
+        right: -70px;
+    }
+    footer .yellow_dot {
+        width: 30px;
+        height: 30px;
+        left: 10%;
+    }  
+}
+
+@media only screen and (min-width: 768px) {
+    .w-lg-70{
+        width: 70%;
+    }
+    .w-lg-80{
+        width: 80%;
+    }
+    .hstack-lg-rev {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .hstack-lg {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .container, .container-md, .container-sm {
+        max-width: 100%;
+    }
+}
