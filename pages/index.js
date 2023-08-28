@@ -318,6 +318,6 @@ if(navigator.platform.match('Mac') !== null) {
     document.querySelector('.vector_section').style.background = '#44A19E'; //  for Mac users
     document.querySelector('.curve svg').style.fill = '#44A19E'; 
 } else {
-    document.querySelector('.vector_section').style.background = '#44A19E'; // for Windows users
-    document.querySelector('.curve svg').style.fill = '#44A19E'; 
+    document.querySelector('.vector_section').style.background = '#179593'; // for Windows users
+    document.querySelector('.curve svg').style.fill = '#179593'; 
 }
