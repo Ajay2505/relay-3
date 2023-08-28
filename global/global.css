@@ -1048,8 +1048,8 @@ nav .end_content button:hover, .nav_book_btn:hover {
 }
 
 .calc_section .box.second .top .red {
-    background-color: var(--off-white);
-    color: var(--bg-pink);
+    /* background-color: var(--off-white); */
+    color: #BF360C;
 }
 
 .calc_section .box.first .bottom {
@@ -1150,13 +1150,13 @@ nav .end_content button:hover, .nav_book_btn:hover {
 }
 
 .scale_section .right_wrapper .top_wrapper .box.purple:hover {
-    background-color: #824FE7;
+    background-color: var(--bg-pink);
     color: var(--off-white);
 }
 
 .scale_section .right_wrapper .bottom_wrapper .box.green:hover {
-    /* color: var(--off-white); */
-    background-color: #c1c8e4;
+    color: var(--off-white);
+    background-color: #17252a;
 }
 
 .scale_section .right_wrapper .bottom_wrapper .box.green .new_img_wrapper {
@@ -1171,13 +1171,13 @@ nav .end_content button:hover, .nav_book_btn:hover {
     width: 240px;
     height: 67px;
     border-radius: 62.5rem;
-    background-color: #c1c8e4;
+    background-color: #17252a;
     position: relative;
     transition: background-color .2s ease-in-out;
 }
 
 .scale_section .right_wrapper .bottom_wrapper .box.green:hover .right .pills {
-    background-color: #5680e9;
+    background-color: #3aafa9;
 }
 
 .scale_section .right_wrapper .bottom_wrapper .box.green:hover .right .pills .img_wrapper,
@@ -1269,7 +1269,7 @@ nav .end_content button:hover, .nav_book_btn:hover {
 }
 
 .scale_section .right_wrapper .purple.box .bottom .circle {
-    background-color: #DBCBF8;
+    background-color: var(--bg-pink);
     position: absolute;
     border-radius: 50%;
     z-index: 1;

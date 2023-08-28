@@ -315,9 +315,9 @@ skewBtns.forEach(btn => {
 });
 
 if(navigator.platform.match('Mac') !== null) {
-    document.querySelector('.vector_section').style.background = '#6554F6'; //  for Mac users
-    document.querySelector('.curve svg').style.fill = '#6554F6'; 
+    document.querySelector('.vector_section').style.background = '#44A19E'; //  for Mac users
+    document.querySelector('.curve svg').style.fill = '#44A19E'; 
 } else {
-    document.querySelector('.vector_section').style.background = '#594CFF'; // for Windows users
-    document.querySelector('.curve svg').style.fill = '#594CFF'; 
+    document.querySelector('.vector_section').style.background = '#44A19E'; // for Windows users
+    document.querySelector('.curve svg').style.fill = '#44A19E'; 
 }
